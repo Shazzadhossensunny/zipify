@@ -14,17 +14,21 @@
     <title>ZIPIFY</title>
   </head>
   <body>
-    <!-- navbar -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
            <div class="container">
               <a class="navbar-brand" href="index.html">
                 <img src="images/Zipify.png" alt="alternative" class="img-fluid">
               </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                  <div id="menu_button">
+                  <input type="checkbox" id="menu_checkbox">
+                  <label for="menu_checkbox" id="menu_label">
+                    <div id="menu_text_bar"></div>
+                  </label>
+                </div>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                 <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse" id="menu">
+                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
                       <a class="nav-link " href="product.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                        Products

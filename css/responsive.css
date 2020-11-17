@@ -1,6 +1,9 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     /*nav*/
+.navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+}
 .navbar-toggler {
     bottom: 50px;
     position: relative;
@@ -127,6 +130,12 @@ footer ul li {
 
 
 @media (min-width: 481px) and (max-width: 767px){
+.navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 0;
+    margin: 0;
+}
 .navbar-toggler {
     bottom: 35px;
     position: relative;
@@ -382,6 +391,12 @@ footer ul li a {
 
 
 @media (min-width: 320px) and (max-width: 480px){
+ .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 0;
+    margin: 0;
+}
 .bg-light {
     padding: 10px 0 0;
 }
