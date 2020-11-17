@@ -671,14 +671,12 @@ footer ul li a{
 
 
 .tab {
-    margin-bottom: 20px;
     position: relative;
     overflow: hidden;
     background: #fff;
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
-    line-height: 2.5;
+    line-height: 1.5;
     font-weight: 500;
     color: #888;
     -webkit-font-smoothing: antialiased;
@@ -688,9 +686,18 @@ footer ul li a{
     display: table;
     position: relative;
     overflow: hidden;
-    margin: 0;
-    width: 100%;
+    margin: 0 auto;
+   /* width: 100%;*/
+   }
+   .tab_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*width: 100%;*/
    } 
+   .card {
+    margin: 0 5px;
+}
    .tabs li {
         float: left;
         line-height: 38px;
@@ -712,7 +719,7 @@ footer ul li a{
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
-        border-bottom: 2px solid blue;
+        border-bottom: 20px solid blue;
     }
 
 
@@ -723,7 +730,7 @@ footer ul li a{
 .tabs_item h4 {
         font-weight: bold;
         color: blue;
-    font-size: 20px;
+        font-size: 20px;
     }
 
 .tabs_item img {
@@ -751,7 +758,9 @@ footer ul li a{
     letter-spacing: 2px;
     text-transform: uppercase;
     transition: all 0.2s linear !important;
-    margin-top: 35px;
+    margin-top: 20px!important;
+    margin: 0 auto;
+
     
 }
 
